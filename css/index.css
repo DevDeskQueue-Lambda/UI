@@ -129,11 +129,6 @@ table {
 * {
   box-sizing: border-box;
 }
-.container {
-  max-width: 80%;
-  width: 100%;
-  margin: 0 auto;
-}
 html {
   font-size: 62.5%;
 }
@@ -148,6 +143,10 @@ h4,
 h5,
 h6 {
   font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+h1 {
+  font-size: 4rem;
 }
 p {
   line-height: 1.5;
@@ -155,4 +154,9 @@ p {
 }
 img {
   max-width: 100%;
+}
+.container {
+  max-width: 80%;
+  width: 100%;
+  margin: 0 auto;
 }
