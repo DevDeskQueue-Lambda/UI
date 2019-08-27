@@ -160,6 +160,50 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.page {
+  max-width: 2000px;
+}
+.pagePadding {
+  margin-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 1%;
+  padding-right: 1%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #BB1333;
+}
+.navbar .links {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: center;
+  font-size: 180%;
+}
+.navbar .links a {
+  text-decoration: none;
+  color: #BB1333;
+  font-weight: bold;
+}
+.navbar .links a:hover {
+  text-decoration: underline;
+}
+.navbar img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 15%;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
 .rowDisplay {
   display: flex;
   justify-content: space-around;
