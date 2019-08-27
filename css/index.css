@@ -177,7 +177,7 @@ img {
 .nav-container nav a {
   text-decoration: none;
   color: #bb1333;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   font-weight: bold;
 }
 .nav-container .headerLogo {
@@ -195,43 +195,48 @@ img {
   position: absolute;
   top: 20%;
   right: 10%;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   width: 35%;
   text-align: center;
   font-weight: bold;
   background-color: rgba(85, 89, 109, 0.7);
-  padding: 1rem 1rem 1rem 1rem;
-  margin-bottom: 2rem;
+  padding: 5rem 1rem 1rem 1rem;
+  height: 60%;
+}
+.hero .heroCopy h1 {
+  font-size: 2.5vw;
 }
 .hero .heroCopy p {
   margin-top: 7%;
-  margin-bottom: 5%;
-  font-size: 2.5rem;
+  margin-bottom: 10%;
+  font-size: 2vw;
   color: white;
 }
 .hero .heroCopy a {
   color: white;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   background-color: #55596d;
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 1vw 2vw 1vw 2vw;
   border-radius: 5px;
   border: 1px solid black;
+  margin-bottom: 2rem;
 }
-.intro-container {
+.cta-footer-container {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 5rem;
 }
-.intro-container h1 {
+.cta-footer-container h2 {
   padding: 5rem 0rem 1.5rem 0rem;
+  font-size: 2.5rem;
 }
-.intro-container p {
+.cta-footer-container p {
   padding: 3rem 2rem 3rem 2rem;
 }
-.intro-container a {
+.cta-footer-container a {
   color: white;
   text-decoration: none;
   font-size: 1.5rem;
@@ -241,4 +246,39 @@ img {
   border: 1px solid black;
   text-align: center;
   width: 15%;
+}
+.user-roles-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 2rem 0 2rem 0;
+}
+.user-roles-container .forStudents {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  text-align: center;
+}
+.user-roles-container .forStudents .vector-container {
+  width: 50%;
+  margin: 0 auto;
+}
+.user-roles-container .forManagers {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  text-align: center;
+}
+.user-roles-container .forManagers .vector-container {
+  width: 50%;
+  margin: 0 auto;
+}
+.student-features {
+  display: flex;
+}
+.student-features .box {
+  width: 30%;
+}
+.admin-features {
+  display: flex;
 }
