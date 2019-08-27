@@ -241,28 +241,97 @@ img {
 .user-roles-container {
   display: flex;
   width: 100%;
-  justify-content: space-evenly;
-  padding: 2rem 0 2rem 0;
+  justify-content: space-around;
+  padding: 2rem 5% 2rem 5%;
 }
 .user-roles-container .forStudents {
   display: flex;
   flex-direction: column;
-  width: 35%;
+  width: 30%;
   text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid black;
 }
 .user-roles-container .forStudents .vector-container {
-  width: 50%;
-  margin: 0 auto;
+  width: 40%;
+  margin-top: 3%;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+}
+.user-roles-container .forStudents a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5vw;
+  background-color: #55596d;
+  padding: 1vw 2vw 1vw 2vw;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-bottom: 2rem;
+  width: 40%;
+}
+.user-roles-container .forStudents h3 {
+  font-size: 2.5vh;
+  margin-bottom: 5%;
 }
 .user-roles-container .forManagers {
   display: flex;
   flex-direction: column;
-  width: 35%;
+  width: 30%;
   text-align: center;
+  align-items: center;
+  border: 2px solid black;
 }
 .user-roles-container .forManagers .vector-container {
-  width: 50%;
-  margin: 0 auto;
+  width: 40%;
+  margin-top: 3%;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+}
+.user-roles-container .forManagers a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5vw;
+  background-color: #55596d;
+  padding: 1vw 2vw 1vw 2vw;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-bottom: 2rem;
+  width: 40%;
+}
+.user-roles-container .forManagers h3 {
+  font-size: 2.5vh;
+  margin-bottom: 5%;
+}
+.user-roles-container .forStaff {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+.user-roles-container .forStaff .vector-container {
+  width: 40%;
+  margin-top: 3%;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+}
+.user-roles-container .forStaff a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5vw;
+  background-color: #55596d;
+  padding: 1vw 2vw 1vw 2vw;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-bottom: 2rem;
+  width: 40%;
+}
+.user-roles-container .forStaff h3 {
+  font-size: 2.5vh;
+  margin-bottom: 5%;
 }
 .student-features {
   display: flex;

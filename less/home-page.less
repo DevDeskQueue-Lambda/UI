@@ -1,4 +1,8 @@
 
+// header{
+//     height:
+// }
+
 .hero{
     display:flex;
     width:100%;
@@ -46,41 +50,86 @@
 .user-roles-container{
     display:flex;
     width:100%;
-    justify-content: space-evenly;
-    padding:2rem 0 2rem 0;
+    justify-content: space-around;
+    padding:2rem 5% 2rem 5%;
     .forStudents{
         display:flex;
         flex-direction:column;
-        width:35%;
+        width:30%;
         text-align:center;
-        // border:1px solid black;
+        align-items:center;
+        justify-content:space-evenly;
+        border:2px solid black;
         .vector-container{
             // padding: 1rem;
-            width:50%;
+
+            width:40%;
             // align-items:center;
-            margin: 0 auto;
+            margin-top: 3%;
+            margin-right: 0 auto;
+            margin-left: 0 auto;
+
         }
         a{
+            .button();
 
-
+        }
+        h3{
+            font-size:2.5vh;
+            margin-bottom:5%;
         }
     }
     .forManagers{
         display:flex;
         flex-direction:column;
-        width:35%;
+        width:30%;
         text-align:center;
-        // border:1px solid black;
+        align-items:center;
+        border:2px solid black;
         .vector-container{
             // padding: 1rem;
-            width:50%;
+
+            width:40%;
             // align-items:center;
-            margin: 0 auto;
+            margin-top: 3%;
+            margin-right: 0 auto;
+            margin-left: 0 auto;
+
         }
         a{
-            
+           .button();
+        }
+        h3{
+            font-size:2.5vh;
+            margin-bottom:5%;
         }
     }//formanagers
+    .forStaff{
+        display:flex;
+        flex-direction:column;
+        width:30%;
+        text-align:center;
+        align-items:center;
+        justify-content:space-between;
+        border:2px solid black;
+        .vector-container{
+            // padding: 1rem;
+
+            width:40%;
+            // align-items:center;
+            margin-top: 3%;
+            margin-right: 0 auto;
+            margin-left: 0 auto;
+
+        }
+        a{
+            .button();
+        }
+        h3{
+            font-size:2.5vh;
+            margin-bottom:5%;
+        }
+    }
 }//user-roles
 
 .student-features{
