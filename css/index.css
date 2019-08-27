@@ -160,3 +160,119 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 1%;
+  padding-right: 1%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar .links {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: center;
+  font-size: 180%;
+}
+.navbar .links a {
+  text-decoration: none;
+  color: #BB1333;
+  font-weight: bold;
+}
+.navbar .links a:hover {
+  text-decoration: underline;
+}
+.navbar img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 15%;
+}
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alegreya Regular'), local('Alegreya-Regular'), url(https://fonts.gstatic.com/s/alegreya/v13/4UaBrEBBsBhlBjvfkSLhx60.ttf) format('truetype');
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  background-color: lightgray;
+  padding-bottom: 5%;
+}
+.about h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: Alegreya, serif;
+  font-weight: bold;
+  width: 100%;
+  font-size: 800%;
+  margin: 7% 0 5% 0;
+}
+.about .row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+.about .row1 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  width: 25%;
+  background-color: white;
+  box-shadow: 0 60px 90px rgba(0, 0, 0, 0.1);
+  border-radius: 20px 20px 20px 20px;
+}
+.about .row1 .card .body h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  font-family: Alegreya, serif;
+  font-weight: bold;
+  width: 100%;
+  font-size: 300%;
+  margin: 5% 0 2% 0;
+}
+.about .row1 .card .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  align-self: center;
+  border-top: 1px solid lightgray;
+  margin-bottom: 2%;
+}
+.about .row1 .card .icons img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  width: 25%;
+  margin: 9% 0 5% 0;
+}
+.about .row1 .card .icons img:hover {
+  background-color: lightblue;
+  border-radius: 20px;
+}
+.about .row1 .card .headshot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  width: 80%;
+  margin-top: 8%;
+  border-radius: 150px;
+}
