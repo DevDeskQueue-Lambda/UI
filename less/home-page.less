@@ -1,8 +1,5 @@
 
-// header{
-//     height:
-// }
-
+//hero banner
 .hero{
     display:flex;
     width:100%;
@@ -10,24 +7,26 @@
     .heroImg{
         width:60%;
     }
+    //hero copy and button
     .heroCopy{
         color:white;
         font-size:2.5rem;
         width:40%;
         text-align:center;
         font-weight:bold;
-        background-color: rgba(85, 89, 109, .6);
-        padding: 5rem 1rem 1rem 1rem;
+        background-color: rgba(12, 60, 120, .2);
+        // padding: 5rem 1rem 1rem 1rem;
         display:flex;
         flex-direction:column;
-        justify-content:space-around;
+        justify-content:center;
         align-items:center;
         h1{
             font-size: 2.5vw;
+            margin-bottom:10%;
         }
         p{
         //   margin-top: 3%;
-        //   margin-bottom:5%;
+          margin-bottom:7.5%;
           font-size:2vw;
           color:white;  
         }//p
@@ -44,14 +43,32 @@
         }//a
     }//herocopy
 }//hero
+//intro section
+.intro-container{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    // margin-bottom:3%;
+    h2{
+        padding: 3% 0 0 0;
+        font-size:2.5rem;
+    }
+    p{
+        max-width:80%;
+        padding:3% 2% 3% 2%;
+        font-weight:bold;
 
+    }
+}//intro-container
 
 
 .user-roles-container{
     display:flex;
     width:100%;
     justify-content: space-around;
-    padding:2rem 5% 2rem 5%;
+    padding:0 5% 0 5%;
+    margin-bottom:5%;
     .forStudents{
         display:flex;
         flex-direction:column;
@@ -132,49 +149,71 @@
     }
 }//user-roles
 
-.student-features{
+//features sections
+.features-container{
     display:flex;
-    .feature-box{
-        width:30%;
+    max-width:90%;
+    margin:0 auto;
+    margin-top:1.5%;
+    margin-bottom:1.5%;
+
+    .features-col-1{
+        width:20%;
+        display:flex;
+        flex-direction:column;
+        padding:3% 0  0 0;
+        // align-items:center;
+        // justify-content:center;
+        h2{
+            font-size:2vw;
+            margin-bottom:3%;
+
+        }
+        p{
+            font-size:1.5vw;
+            margin-bottom:3%;
+        }
+
+
+    }
+    .features-col-2{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content:flex-end;
+        width:80%;
+        .feature-box{
+            width:40%;
+            flex-direction:column;
+            padding: 3% 3% 3% 3%;
+        }
+        h3{
+            font-size:1.25vw;
+            margin-bottom:5%;
+        }
 
     }
 
+
 }
+
+.students{
+ background-color:rgba(12, 60, 120, .1);
+}
+
+.staff{
+background-color:rgba(26, 97, 176, .1);
+}
+
+.admin{
+background-color:rgba(58, 181, 229, .1);
+}
+
 
 .admin-features{
     display:flex;
 }
 
-.cta-footer-container{
-    width:100%;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    margin-bottom:5rem;
-    h2{
-        padding: 5rem 0rem 1.5rem 0rem;
-        font-size:2.5rem;
-    }
-    p{
-        padding:3rem 2rem 3rem 2rem;
-
-    }
-    a{
-        color:white;
-        text-decoration:none;
-        font-size:1.5rem;
-        background-color:#55596d;
-        padding: 1rem 0 1rem 0;
-        border-radius:5px;
-        border:1px solid black;
-        text-align:center;
-        width:15%;
-    }
-
-
-
-
-}//cat-footer
 
 
 

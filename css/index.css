@@ -213,17 +213,18 @@ img {
   width: 40%;
   text-align: center;
   font-weight: bold;
-  background-color: rgba(85, 89, 109, 0.6);
-  padding: 5rem 1rem 1rem 1rem;
+  background-color: rgba(12, 60, 120, 0.2);
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 .hero .heroCopy h1 {
   font-size: 2.5vw;
+  margin-bottom: 10%;
 }
 .hero .heroCopy p {
+  margin-bottom: 7.5%;
   font-size: 2vw;
   color: white;
 }
@@ -238,11 +239,27 @@ img {
   margin-bottom: 2rem;
   width: 40%;
 }
+.intro-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intro-container h2 {
+  padding: 3% 0 0 0;
+  font-size: 2.5rem;
+}
+.intro-container p {
+  max-width: 80%;
+  padding: 3% 2% 3% 2%;
+  font-weight: bold;
+}
 .user-roles-container {
   display: flex;
   width: 100%;
   justify-content: space-around;
-  padding: 2rem 5% 2rem 5%;
+  padding: 0 5% 0 5%;
+  margin-bottom: 5%;
 }
 .user-roles-container .forStudents {
   display: flex;
@@ -262,7 +279,7 @@ img {
 .user-roles-container .forStudents a {
   color: white;
   text-decoration: none;
-  font-size: 1.5vw;
+  font-size: 1.25vw;
   background-color: #55596d;
   padding: 1vw 2vw 1vw 2vw;
   border-radius: 5px;
@@ -291,7 +308,7 @@ img {
 .user-roles-container .forManagers a {
   color: white;
   text-decoration: none;
-  font-size: 1.5vw;
+  font-size: 1.25vw;
   background-color: #55596d;
   padding: 1vw 2vw 1vw 2vw;
   border-radius: 5px;
@@ -321,7 +338,7 @@ img {
 .user-roles-container .forStaff a {
   color: white;
   text-decoration: none;
-  font-size: 1.5vw;
+  font-size: 1.25vw;
   background-color: #55596d;
   padding: 1vw 2vw 1vw 2vw;
   border-radius: 5px;
@@ -333,37 +350,52 @@ img {
   font-size: 2.5vh;
   margin-bottom: 5%;
 }
-.student-features {
+.features-container {
   display: flex;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
 }
-.student-features .feature-box {
-  width: 30%;
+.features-container .features-col-1 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 3% 0  0 0;
+}
+.features-container .features-col-1 h2 {
+  font-size: 2vw;
+  margin-bottom: 3%;
+}
+.features-container .features-col-1 p {
+  font-size: 1.5vw;
+  margin-bottom: 3%;
+}
+.features-container .features-col-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 80%;
+}
+.features-container .features-col-2 .feature-box {
+  width: 40%;
+  flex-direction: column;
+  padding: 3% 3% 3% 3%;
+}
+.features-container .features-col-2 h3 {
+  font-size: 1.25vw;
+  margin-bottom: 5%;
+}
+.students {
+  background-color: rgba(12, 60, 120, 0.1);
+}
+.staff {
+  background-color: rgba(26, 97, 176, 0.1);
+}
+.admin {
+  background-color: rgba(58, 181, 229, 0.1);
 }
 .admin-features {
   display: flex;
-}
-.cta-footer-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 5rem;
-}
-.cta-footer-container h2 {
-  padding: 5rem 0rem 1.5rem 0rem;
-  font-size: 2.5rem;
-}
-.cta-footer-container p {
-  padding: 3rem 2rem 3rem 2rem;
-}
-.cta-footer-container a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.5rem;
-  background-color: #55596d;
-  padding: 1rem 0 1rem 0;
-  border-radius: 5px;
-  border: 1px solid black;
-  text-align: center;
-  width: 15%;
 }
