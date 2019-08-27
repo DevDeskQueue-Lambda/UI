@@ -160,3 +160,104 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.page {
+  max-width: 2000px;
+}
+.pagePadding {
+  margin-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 1%;
+  padding-right: 1%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #BB1333;
+}
+.navbar .links {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: center;
+  font-size: 180%;
+}
+.navbar .links a {
+  text-decoration: none;
+  color: #BB1333;
+  font-weight: bold;
+}
+.navbar .links a:hover {
+  text-decoration: underline;
+}
+.navbar img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 15%;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+.rowDisplay {
+  display: flex;
+  justify-content: space-around;
+}
+.halfWidth {
+  width: 45%;
+}
+.halfWidth .halfText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.halfImgRight {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.sectionText {
+  font-size: 1.5rem;
+}
+.sectionTitle {
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding-bottom: 5%;
+}
+.linebreak {
+  border-bottom: 2px solid #C0C0C0;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.tableOfContents {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.tableOfContents .sectionButton {
+  background: #BB1333;
+  color: white;
+  border-radius: 0;
+  font-weight: bold;
+  padding-top: 0.7vh;
+  padding-bottom: 0.7vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+#pageTitle {
+  text-align: center;
+  margin-top: 15%;
+  font-family: 'Lato', sans-serif;
+}

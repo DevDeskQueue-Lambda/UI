@@ -1,3 +1,4 @@
+
 .navbar{
     display: flex;
     flex-direction: row;
@@ -8,6 +9,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    border-bottom: 1px solid @lambda-red;
     
     .links {
         width: 50%;
@@ -18,7 +20,7 @@
         font-size: 180%;
         a {
           text-decoration: none;
-          color: #BB1333;
+          color: @lambda-red;
           font-weight: bold;
           &:hover {
             text-decoration: underline;
@@ -30,5 +32,7 @@
         flex-direction: column;
         justify-content: center;
         width: 15%;
+        padding-bottom: 4px;
+        padding-top: 4px;
     }
 }
