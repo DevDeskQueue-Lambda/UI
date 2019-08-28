@@ -340,7 +340,7 @@ img {
   padding-bottom: 0.7vh;
   padding-left: 1vw;
   padding-right: 1vw;
-  font-size: 1.5vw;
+  font-size: 1vw;
   text-align: center;
   text-decoration: none;
   margin-bottom: 5%;
@@ -372,7 +372,7 @@ img {
   padding-bottom: 0.7vh;
   padding-left: 1vw;
   padding-right: 1vw;
-  font-size: 1.5vw;
+  font-size: 1vw;
   text-align: center;
   text-decoration: none;
   margin-bottom: 5%;
@@ -405,7 +405,7 @@ img {
   padding-bottom: 0.7vh;
   padding-left: 1vw;
   padding-right: 1vw;
-  font-size: 1.5vw;
+  font-size: 1vw;
   text-align: center;
   text-decoration: none;
   margin-bottom: 5%;
@@ -433,7 +433,7 @@ img {
   text-align: center;
 }
 .features-container .features-col-1 p {
-  font-size: 1.5vw;
+  font-size: 1.15vw;
   margin-bottom: 3%;
   text-align: center;
 }
@@ -446,7 +446,7 @@ img {
   padding-bottom: 0.7vh;
   padding-left: 1vw;
   padding-right: 1vw;
-  font-size: 1.5vw;
+  font-size: 1vw;
   text-decoration: none;
   width: 60%;
   text-align: center;
@@ -496,12 +496,13 @@ img {
 }
 .final-cta-container h2 {
   padding: 3% 0 0 0;
-  font-size: 2.5rem;
+  font-size: 2.5vw;
 }
 .final-cta-container p {
   max-width: 80%;
-  padding: 3% 2% 3% 2%;
+  padding: 3% 2% 2% 2%;
   font-weight: bold;
+  font-size: 1.25vw;
 }
 .final-cta-container a {
   background: #BB1333;
@@ -512,7 +513,7 @@ img {
   padding-bottom: 0.7vh;
   padding-left: 1vw;
   padding-right: 1vw;
-  font-size: 1.5vw;
+  font-size: 1vw;
   text-align: center;
   text-decoration: none;
 }
