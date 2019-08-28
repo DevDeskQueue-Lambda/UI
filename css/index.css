@@ -247,6 +247,9 @@ img {
   padding-bottom: 4px;
   padding-top: 4px;
 }
+* {
+  line-height: 1.5;
+}
 .hero {
   display: flex;
   width: 100%;
@@ -266,6 +269,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  line-height: 1.5;
 }
 .hero .heroCopy h1 {
   font-size: 2.5vw;
@@ -294,6 +298,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 .intro-container h2 {
   padding: 3% 0 0 0;
@@ -421,14 +426,30 @@ img {
   display: flex;
   flex-direction: column;
   padding: 3% 0  0 0;
+  align-items: center;
 }
 .features-container .features-col-1 h2 {
   font-size: 2vw;
   margin-bottom: 3%;
+  text-align: center;
 }
 .features-container .features-col-1 p {
   font-size: 1.5vw;
   margin-bottom: 3%;
+}
+.features-container .features-col-1 a {
+  background: #55596d;
+  color: white;
+  border-radius: 0;
+  font-weight: bold;
+  padding-top: 0.7vh;
+  padding-bottom: 0.7vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 1vw;
+  text-decoration: none;
+  width: 60%;
+  text-align: center;
 }
 .features-container .features-col-2 {
   display: flex;
@@ -472,6 +493,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 .final-cta-container h2 {
   padding: 3% 0 0 0;
