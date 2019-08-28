@@ -21,14 +21,15 @@
             width:100%;
         }
     }//heroImg
+
     //hero copy and button
     .heroCopy{
-        color:white;
+        color:black;
         font-size:2.5rem;
         width:40%;
         text-align:center;
         font-weight:bold;
-        background-color: rgba(12, 60, 120, .3);
+        background-color:rgba(58, 181, 229, .2);
         // padding: 5rem 1rem 1rem 1rem;
         display:flex;
         flex-direction:column;
@@ -37,6 +38,7 @@
         line-height: 1.5;
         @media (max-width:@tabletBreakPoint){
             width:100%;
+            .linebreak(black,0);
         }
 
         h1{
@@ -49,17 +51,19 @@
             }
             @media (max-width:@mobileBreakPoint){
 
+
             }
         }
         p{
         //   margin-top: 3%;
           margin-bottom:7.5%;
           font-size:2vw;
-          color:white;
+          color:black;
           @media (max-width:@tabletBreakPoint){
                 font-size:2.7rem;
             }
           @media (max-width:@mobileBreakPoint){
+              font-size:2rem;
                 
             }  
         }//p
@@ -92,11 +96,26 @@
     h2{
         padding: 1% 0 0 0;
         font-size:2.5rem;
+        @media (max-width:@tabletBreakPoint){
+            margin-bottom:5%;
+        }
+    
+        @media (max-width:@mobileBreakPoint){
+            margin-bottom:5%;
+        }
     }
     p{
         max-width:80%;
         padding:2% 2% 0% 2%;
-        font-weight:bold;
+        @media (max-width:@tabletBreakPoint){
+            font-size:2rem;
+        }
+    
+        @media (max-width:@mobileBreakPoint){
+            text-align:left;
+            font-size:1.5rem;
+        }
+        // font-weight:bold;
 
     }
 }//intro-container
@@ -237,6 +256,7 @@
                 font-size:3rem;
              }
              @media (max-width:@mobileBreakPoint){
+                 font-size:2.5rem;
              }
 
         }
@@ -245,10 +265,13 @@
             margin-bottom:3%;
             text-align:center;
             @media (max-width:@tabletBreakPoint){
-                font-size:1.5rem;
-                font-weight:bold;
+                font-size:2rem;
+                // font-weight:bold;
              }
              @media (max-width:@mobileBreakPoint){
+                 font-size:1.5rem;
+                 text-align:left;
+                 padding:0 0 0 7%;
              }
         }
         a{
@@ -257,9 +280,11 @@
             text-align:center;
             @media (max-width:@tabletBreakPoint){
                 width:25%;
-                font-size:1.2rem;
+                font-size:2rem;
              }
              @media (max-width:@mobileBreakPoint){
+                 width:33%;
+                 font-size:1.5rem;
              }
 
         }
@@ -300,11 +325,23 @@
             margin-bottom:10%;
             color:@lambda-red;
             @media (max-width:@tabletBreakPoint){
-                font-size:1.5rem;
+                font-size:2.25rem;
                 margin-bottom:5%;
              }
              @media (max-width:@mobileBreakPoint){
+
              }
+        }//h3
+        p{
+            @media (max-width:@tabletBreakPoint){
+                font-size:2rem;
+             }
+             @media (max-width:@mobileBreakPoint){
+                font-size:1.5rem;
+                text-align:left;
+                padding:0 2% 0 4%;
+             }
+
         }
         img{
             margin-bottom:5%;
@@ -318,6 +355,7 @@
 .students{
  background-color:rgba(26, 97, 176, .2);
  .linebreak(black,0);
+ border-top: 2px solid black;
 }
 
 .staff{
@@ -341,6 +379,9 @@ background-color:rgba(26, 97, 176, .2);
     flex-direction:column;
     align-items:center;
     text-align:center;
+    @media (max-width:@tabletBreakPoint){
+        
+    }
     h2{
         padding: 3% 0 0 0;
         font-size:2.5vw;
@@ -353,12 +394,15 @@ background-color:rgba(26, 97, 176, .2);
     p{
         max-width:80%;
         padding:3% 2% 2% 2%;
-        font-weight:bold;
+        // font-weight:bold;
         font-size:1.25vw;
         @media (max-width:@tabletBreakPoint){
             font-size:2rem;
          }
          @media (max-width:@mobileBreakPoint){
+             text-align:center;
+             padding:3% 2% 3% 4%;
+             font-size:1.5rem;
          }
     }
     a{
