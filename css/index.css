@@ -418,7 +418,7 @@ img {
   display: flex;
   max-width: 90%;
   margin: 0 auto;
-  padding: 0 5% 0 5%;
+  padding: 3% 5% 3% 5%;
 }
 .features-container .features-col-1 {
   width: 20%;
