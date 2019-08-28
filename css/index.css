@@ -293,8 +293,112 @@ img {
   margin-left: 0.5%;
   margin-right: 0.5%;
 }
-#pageTitle {
+.pageTitle {
   text-align: center;
-  margin-top: 15%;
+  margin-top: 13%;
   font-family: 'Lato', sans-serif;
+}
+.pageSubtitle {
+  text-align: center;
+  margin-top: 1.5%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  color: grey;
+}
+.header-image {
+  background-image: url("photographer.jpg");
+  /* The image used */
+  background-color: #cccccc;
+  /* Used if the image is unavailable */
+  height: 500px;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+}
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alegreya Regular'), local('Alegreya-Regular'), url(https://fonts.gstatic.com/s/alegreya/v13/4UaBrEBBsBhlBjvfkSLhx60.ttf) format('truetype');
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  background-color: lightgray;
+  padding-bottom: 5%;
+}
+.about h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: Alegreya, serif;
+  font-weight: bold;
+  width: 100%;
+  font-size: 800%;
+  margin: 7% 0 5% 0;
+}
+.about .row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+.about .row1 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  width: 25%;
+  background-color: white;
+  box-shadow: 0 60px 90px rgba(0, 0, 0, 0.1);
+  border-radius: 20px 20px 20px 20px;
+}
+.about .row1 .card .body h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  font-family: Alegreya, serif;
+  font-weight: bold;
+  width: 100%;
+  font-size: 300%;
+  margin: 5% 0 2% 0;
+}
+.about .row1 .card .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  align-self: center;
+  border-top: 1px solid lightgray;
+  margin-bottom: 2%;
+}
+.about .row1 .card .icons img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  width: 25%;
+  margin: 9% 0 5% 0;
+}
+.about .row1 .card .icons img:hover {
+  background-color: lightblue;
+  border-radius: 20px;
+}
+.about .row1 .card .headshot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  width: 80%;
+  margin-top: 8%;
+  border-radius: 150px;
 }
