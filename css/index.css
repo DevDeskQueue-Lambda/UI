@@ -155,9 +155,15 @@ p {
 img {
   max-width: 100%;
 }
+.page {
+  max-width: 2000px;
+}
+.pagePadding {
+  margin-top: 5%;
+  padding: 0 5% 0 5%;
+}
 .container {
-  max-width: 80%;
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
 }
 .page {
@@ -241,6 +247,275 @@ img {
   padding-bottom: 4px;
   padding-top: 4px;
 }
+* {
+  line-height: 1.5;
+}
+.hero {
+  display: flex;
+  width: 100%;
+  margin-top: 7%;
+}
+.hero .heroImg {
+  width: 60%;
+}
+.hero .heroCopy {
+  color: white;
+  font-size: 2.5rem;
+  width: 40%;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgba(12, 60, 120, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+}
+.hero .heroCopy h1 {
+  font-size: 2.5vw;
+  margin-bottom: 10%;
+}
+.hero .heroCopy p {
+  margin-bottom: 7.5%;
+  font-size: 2vw;
+  color: white;
+}
+.hero .heroCopy a {
+  background: #BB1333;
+  color: white;
+  border-radius: 0;
+  font-weight: bold;
+  padding-top: 0.7vh;
+  padding-bottom: 0.7vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 1.5vw;
+  text-align: center;
+  text-decoration: none;
+}
+.intro-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.intro-container h2 {
+  padding: 1% 0 0 0;
+  font-size: 2.5rem;
+}
+.intro-container p {
+  max-width: 80%;
+  padding: 2% 2% 0% 2%;
+  font-weight: bold;
+}
+.user-roles-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 0 5% 0 5%;
+  margin-bottom: 5%;
+}
+.user-roles-container .forStudents {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid black;
+}
+.user-roles-container .forStudents .vector-container {
+  width: 40%;
+  margin-top: 3%;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+}
+.user-roles-container .forStudents a {
+  background: #BB1333;
+  color: white;
+  border-radius: 0;
+  font-weight: bold;
+  padding-top: 0.7vh;
+  padding-bottom: 0.7vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 1.5vw;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 5%;
+}
+.user-roles-container .forStudents h3 {
+  font-size: 2.5vh;
+  margin-bottom: 5%;
+}
+.user-roles-container .forManagers {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: center;
+  align-items: center;
+  border: 2px solid black;
+}
+.user-roles-container .forManagers .vector-container {
+  width: 40%;
+  margin-top: 3%;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+}
+.user-roles-container .forManagers a {
+  background: #BB1333;
+  color: white;
+  border-radius: 0;
+  font-weight: bold;
+  padding-top: 0.7vh;
+  padding-bottom: 0.7vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 1.5vw;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 5%;
+}
+.user-roles-container .forManagers h3 {
+  font-size: 2.5vh;
+  margin-bottom: 5%;
+}
+.user-roles-container .forStaff {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+.user-roles-container .forStaff .vector-container {
+  width: 40%;
+  margin-top: 3%;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+}
+.user-roles-container .forStaff a {
+  background: #BB1333;
+  color: white;
+  border-radius: 0;
+  font-weight: bold;
+  padding-top: 0.7vh;
+  padding-bottom: 0.7vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 1.5vw;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 5%;
+}
+.user-roles-container .forStaff h3 {
+  font-size: 2.5vh;
+  margin-bottom: 5%;
+}
+.features-container {
+  display: flex;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0 5% 0 5%;
+}
+.features-container .features-col-1 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.features-container .features-col-1 h2 {
+  font-size: 2vw;
+  margin-bottom: 3%;
+  text-align: center;
+}
+.features-container .features-col-1 p {
+  font-size: 1.5vw;
+  margin-bottom: 3%;
+  text-align: center;
+}
+.features-container .features-col-1 a {
+  background: #BB1333;
+  color: white;
+  border-radius: 0;
+  font-weight: bold;
+  padding-top: 0.7vh;
+  padding-bottom: 0.7vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 1.5vw;
+  text-decoration: none;
+  width: 60%;
+  text-align: center;
+}
+.features-container .features-col-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+}
+.features-container .features-col-2 .feature-box {
+  width: 40%;
+  flex-direction: column;
+  padding: 3% 3% 3% 3%;
+}
+.features-container .features-col-2 h3 {
+  font-size: 1.25vw;
+  margin-bottom: 5%;
+}
+.students {
+  background-color: rgba(12, 60, 120, 0.2);
+  border-bottom: 2px solid black;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.staff {
+  background-color: rgba(26, 97, 176, 0.2);
+  border-bottom: 2px solid black;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.admin {
+  background-color: rgba(58, 181, 229, 0.2);
+  border-bottom: 2px solid black;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.admin-features {
+  display: flex;
+}
+.final-cta-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.final-cta-container h2 {
+  padding: 3% 0 0 0;
+  font-size: 2.5rem;
+}
+.final-cta-container p {
+  max-width: 80%;
+  padding: 3% 2% 3% 2%;
+  font-weight: bold;
+}
+.final-cta-container a {
+  background: #BB1333;
+  color: white;
+  border-radius: 0;
+  font-weight: bold;
+  padding-top: 0.7vh;
+  padding-bottom: 0.7vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 1.5vw;
+  text-align: center;
+  text-decoration: none;
+}
 .rowDisplay {
   display: flex;
   justify-content: space-around;
@@ -319,6 +594,7 @@ img {
   background-size: cover;
   /* Resize the background image to cover the entire container */
 }
+
 @font-face {
   font-family: 'Alegreya';
   font-style: normal;
