@@ -568,11 +568,33 @@ img {
   margin-left: 0.5%;
   margin-right: 0.5%;
 }
-#pageTitle {
+.pageTitle {
   text-align: center;
-  margin-top: 15%;
+  margin-top: 13%;
   font-family: 'Lato', sans-serif;
 }
+.pageSubtitle {
+  text-align: center;
+  margin-top: 1.5%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  color: grey;
+}
+.header-image {
+  background-image: url("photographer.jpg");
+  /* The image used */
+  background-color: #cccccc;
+  /* Used if the image is unavailable */
+  height: 500px;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+}
+
 @font-face {
   font-family: 'Alegreya';
   font-style: normal;
