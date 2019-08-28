@@ -1,34 +1,55 @@
 .navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 1%;
-    padding-right: 1%;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    
-    .links {
-        width: 50%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 1%;
+  padding-right: 1%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid @lambda-red;
+  @media (max-width: @tabletBreakPoint) {
+    .flexbox(column, center);
+  }
+  
+  .links {
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-self: center;
+      font-size: 180%;
+      @media (max-width: @tabletBreakPoint) {
+        .flexbox(row, space-evenly);
+        justify-items: auto;
+        width: 100%;
+      }
+      a {
+        text-decoration: none;
+        color: @lambda-red;
+        font-weight: bold;
+        @media (max-width: @tabletBreakPoint) {
+          margin: 1%;
+        }
+        &:hover {
+          text-decoration: underline;
+        }
+      }   
+  }
+  img {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 15%;
+      padding-bottom: 4px;
+      padding-top: 4px;
+      @media (max-width: @tabletBreakPoint) {
+        .flexbox(row, center);
+        justify-items: center;
+        justify-self: center;
         align-self: center;
-        font-size: 180%;
-        a {
-          text-decoration: none;
-          color: #BB1333;
-          font-weight: bold;
-          &:hover {
-            text-decoration: underline;
-          }
-        }   
-    }
-    img {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 15%;
-    }
+        width: 30%;
+      }
+  }
 }

@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya');
 
-@backgroundColor: white;
-@secondaryColor: lightGray;
-@lambdaRed: #BB1333;
-@iconHoverColor: lightBlue;
-@mobileBreakPoint: 500px;
-
-.flexbox (@direction, @justify){
-    display: flex;
-    flex-direction: @direction;
-    justify-content: @justify;
-}
-
-
 .about {
     .flexbox(column, center);
     justify-items: center;
@@ -28,7 +15,11 @@
         margin: 7% 0 5% 0;
         @media (max-width: @mobileBreakPoint) {
             margin-bottom: 2%;
-            margin-top: 15%;
+            margin-top: 20%;
+          }
+          @media (max-width: @tabletBreakPoint) {
+            margin-bottom: 2%;
+            margin-top: 18%;
           }
     }
 
@@ -47,6 +38,9 @@
             background-color: @secondaryColor;
             box-shadow: 0 60px 90px lighten(@secondaryColor,10);
             border-radius: 20px 20px 20px 20px;
+            @media (max-width: @tabletBreakPoint) {
+                width: 31%;
+              }
             
             @media (max-width: @mobileBreakPoint) {
                 .flexbox(column, space-around);
@@ -82,7 +76,7 @@
                 font-size: 12pt;
                 font-weight: bold;
                 color: @backgroundColor;
-                background-color: @lambdaRed;
+                background-color: @lambda-red;
                 width: 90%;
                 padding: 3%;
                 border-radius: 20px;
