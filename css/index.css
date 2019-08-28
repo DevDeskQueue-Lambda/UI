@@ -281,7 +281,7 @@ img {
   color: white;
 }
 .hero .heroCopy a {
-  background: #55596d;
+  background: #BB1333;
   color: white;
   border-radius: 0;
   font-weight: bold;
@@ -301,12 +301,12 @@ img {
   text-align: center;
 }
 .intro-container h2 {
-  padding: 3% 0 0 0;
+  padding: 1% 0 0 0;
   font-size: 2.5rem;
 }
 .intro-container p {
   max-width: 80%;
-  padding: 3% 2% 3% 2%;
+  padding: 2% 2% 0% 2%;
   font-weight: bold;
 }
 .user-roles-container {
@@ -332,7 +332,7 @@ img {
   margin-left: 0 auto;
 }
 .user-roles-container .forStudents a {
-  background: #55596d;
+  background: #BB1333;
   color: white;
   border-radius: 0;
   font-weight: bold;
@@ -364,7 +364,7 @@ img {
   margin-left: 0 auto;
 }
 .user-roles-container .forManagers a {
-  background: #55596d;
+  background: #BB1333;
   color: white;
   border-radius: 0;
   font-weight: bold;
@@ -397,7 +397,7 @@ img {
   margin-left: 0 auto;
 }
 .user-roles-container .forStaff a {
-  background: #55596d;
+  background: #BB1333;
   color: white;
   border-radius: 0;
   font-weight: bold;
@@ -423,8 +423,8 @@ img {
   width: 20%;
   display: flex;
   flex-direction: column;
-  padding: 3% 0  0 0;
   align-items: center;
+  justify-content: center;
 }
 .features-container .features-col-1 h2 {
   font-size: 2vw;
@@ -434,9 +434,10 @@ img {
 .features-container .features-col-1 p {
   font-size: 1.5vw;
   margin-bottom: 3%;
+  text-align: center;
 }
 .features-container .features-col-1 a {
-  background: #55596d;
+  background: #BB1333;
   color: white;
   border-radius: 0;
   font-weight: bold;
@@ -444,7 +445,7 @@ img {
   padding-bottom: 0.7vh;
   padding-left: 1vw;
   padding-right: 1vw;
-  font-size: 1vw;
+  font-size: 1.5vw;
   text-decoration: none;
   width: 60%;
   text-align: center;
@@ -452,8 +453,7 @@ img {
 .features-container .features-col-2 {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: center;
   width: 80%;
 }
 .features-container .features-col-2 .feature-box {
@@ -503,7 +503,7 @@ img {
   font-weight: bold;
 }
 .final-cta-container a {
-  background: #55596d;
+  background: #BB1333;
   color: white;
   border-radius: 0;
   font-weight: bold;
