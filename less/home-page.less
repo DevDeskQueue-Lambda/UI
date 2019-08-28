@@ -31,15 +31,17 @@
           color:white;  
         }//p
         a{
-            color:white;
-            text-decoration:none;
-            font-size:1.5vw;
-            background-color:#55596d;
-            padding: 1vw 2vw 1vw 2vw;
-            border-radius:5px;
-            border:1px solid black;
-            margin-bottom:2rem;
-            width:40%;
+            .button(#55596d,white,1.5vw,0);
+
+            // color:white;
+            // text-decoration:none;
+            // font-size:1.5vw;
+            // background-color:#55596d;
+            // padding: 1vw 2vw 1vw 2vw;
+            // border-radius:5px;
+            // border:1px solid black;
+            // margin-bottom:2rem;
+            // width:40%;
         }//a
     }//herocopy
 }//hero
@@ -88,7 +90,7 @@
 
         }
         a{
-            .button();
+            .button(#55596d,white,1.5vw,0);
 
         }
         h3{
@@ -114,7 +116,7 @@
 
         }
         a{
-           .button();
+            .button(#55596d,white,1.5vw,0);
         }
         h3{
             font-size:2.5vh;
@@ -140,7 +142,7 @@
 
         }
         a{
-            .button();
+            .button(#55596d,white,1.5vw,0);
         }
         h3{
             font-size:2.5vh;
@@ -199,19 +201,43 @@
 
 .students{
  background-color:rgba(12, 60, 120, .1);
+ .linebreak(black,0);
 }
 
 .staff{
 background-color:rgba(26, 97, 176, .1);
+.linebreak(black,0);
 }
 
 .admin{
 background-color:rgba(58, 181, 229, .1);
+.linebreak(black,0);
 }
 
 
 .admin-features{
     display:flex;
+}
+
+.final-cta-container{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    // margin-bottom:3%;
+    h2{
+        padding: 3% 0 0 0;
+        font-size:2.5rem;
+    }
+    p{
+        max-width:80%;
+        padding:3% 2% 3% 2%;
+        font-weight:bold;
+    }
+    a{
+        .button(#55596d,white,1.5vw,0);
+        // margin-top:5%;
+    }
 }
 
 
