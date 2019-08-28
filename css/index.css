@@ -261,7 +261,7 @@ img {
   width: 40%;
   text-align: center;
   font-weight: bold;
-  background-color: rgba(12, 60, 120, 0.2);
+  background-color: rgba(12, 60, 120, 0.3);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -338,6 +338,7 @@ img {
   font-size: 1.5vw;
   text-align: center;
   text-decoration: none;
+  margin-bottom: 5%;
 }
 .user-roles-container .forStudents h3 {
   font-size: 2.5vh;
@@ -369,6 +370,7 @@ img {
   font-size: 1.5vw;
   text-align: center;
   text-decoration: none;
+  margin-bottom: 5%;
 }
 .user-roles-container .forManagers h3 {
   font-size: 2.5vh;
@@ -401,6 +403,7 @@ img {
   font-size: 1.5vw;
   text-align: center;
   text-decoration: none;
+  margin-bottom: 5%;
 }
 .user-roles-container .forStaff h3 {
   font-size: 2.5vh;
@@ -444,19 +447,19 @@ img {
   margin-bottom: 5%;
 }
 .students {
-  background-color: rgba(12, 60, 120, 0.1);
+  background-color: rgba(12, 60, 120, 0.2);
   border-bottom: 2px solid black;
   margin-top: 0;
   margin-bottom: 0;
 }
 .staff {
-  background-color: rgba(26, 97, 176, 0.1);
+  background-color: rgba(26, 97, 176, 0.2);
   border-bottom: 2px solid black;
   margin-top: 0;
   margin-bottom: 0;
 }
 .admin {
-  background-color: rgba(58, 181, 229, 0.1);
+  background-color: rgba(58, 181, 229, 0.2);
   border-bottom: 2px solid black;
   margin-top: 0;
   margin-bottom: 0;
