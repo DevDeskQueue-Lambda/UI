@@ -223,6 +223,13 @@ img {
   width: 100%;
   border-bottom: 1px solid #BB1333;
 }
+@media (max-width: 800px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 .navbar .links {
   width: 50%;
   display: flex;
@@ -231,10 +238,24 @@ img {
   align-self: center;
   font-size: 180%;
 }
+@media (max-width: 800px) {
+  .navbar .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: auto;
+    width: 100%;
+  }
+}
 .navbar .links a {
   text-decoration: none;
   color: #BB1333;
   font-weight: bold;
+}
+@media (max-width: 800px) {
+  .navbar .links a {
+    margin: 1%;
+  }
 }
 .navbar .links a:hover {
   text-decoration: underline;
@@ -246,6 +267,17 @@ img {
   width: 15%;
   padding-bottom: 4px;
   padding-top: 4px;
+}
+@media (max-width: 800px) {
+  .navbar img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-self: center;
+    width: 30%;
+  }
 }
 * {
   line-height: 1.5;
