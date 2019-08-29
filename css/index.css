@@ -814,8 +814,11 @@ img {
     height: auto;
   }
 }
+#noBorder {
+  border: none;
+}
 .sectionText {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 @media (max-width: 800px) {
   .sectionText {
@@ -823,7 +826,7 @@ img {
   }
 }
 .sectionTitle {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   padding-bottom: 5%;
 }
