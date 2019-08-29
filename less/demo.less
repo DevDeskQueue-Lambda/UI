@@ -1,6 +1,10 @@
 .rowDisplay {
     display: flex;
     justify-content: space-around;
+    @media (max-width: @tabletBreakPoint) {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .halfWidth { 
@@ -11,21 +15,55 @@
         justify-content: center;
         height: 100%;
     }
+    @media (max-width: @tabletBreakPoint) {
+        width: 100%;
+    }
+    
 }
 
 .halfImgRight {
+    img {
+        border: 1px solid gray;
+    }
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row-reverse;
+    @media (max-width: @tabletBreakPoint) {
+        order: -1;//re-reverse the order so it's normal
+        width: 100%;
+        height: auto;
+    }
+}
+
+.halfImgLeft {
+    img {
+        border: 1px solid gray;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: @tabletBreakPoint) {
+        width: 100%;
+        height: auto;
+    }
 }
 
 .sectionText {
     font-size: 1.5rem;
+    @media (max-width: @tabletBreakPoint) {
+        text-align: center;
+    }
 }
 
 .sectionTitle {
     font-size: 2.2rem;
     font-weight: bold;
     padding-bottom: 5%;
+    @media (max-width: @tabletBreakPoint) {
+        text-align: center;
+        padding-top: 5%;
+    }
 }
 
 .linebreak {
@@ -43,14 +81,19 @@
         .button();
         margin-left: .5%;
         margin-right: .5%;
+        margin-top: 1%;
     }
 
 }
 
 .pageTitle {
     text-align: center;
-    margin-top: 13%;
+    margin-top: 13%;//to get below the fixed header
     font-family: 'Lato', sans-serif;
+    @media (max-width: @tabletBreakPoint) {
+        margin-top: 26%;//since at this width the header gets twice as large
+        font-size: 3rem;
+    }
 }
 
 .pageSubtitle {
@@ -60,12 +103,3 @@
     font-size: 1.6rem;
     color: grey;
 }
-
-.header-image {
-    background-image: url("photographer.jpg"); /* The image used */
-    background-color: #cccccc; /* Used if the image is unavailable */
-    height: 500px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-  }
