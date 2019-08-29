@@ -245,12 +245,14 @@ img {
   justify-content: space-around;
   align-self: center;
   font-size: 180%;
+  padding-right: 5%;
 }
 @media (max-width: 800px) {
   .navbar .links {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding-right: 0;
     justify-items: auto;
     width: 100%;
   }
@@ -275,6 +277,7 @@ img {
   width: 15%;
   padding-bottom: 4px;
   padding-top: 4px;
+  padding-left: 5%;
 }
 @media (max-width: 800px) {
   .navbar img {
@@ -285,6 +288,7 @@ img {
     justify-self: center;
     align-self: center;
     width: 30%;
+    padding-left: 0;
   }
 }
 * {
