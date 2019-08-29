@@ -168,6 +168,7 @@ img {
 }
 .page {
   max-width: 2000px;
+  margin: 0 auto;
 }
 .pagePadding {
   margin-top: 5%;
@@ -782,6 +783,11 @@ img {
 @media (max-width: 800px) {
   .halfWidth {
     width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .halfWidth {
+    width: 99%;
   }
 }
 .halfImgRight {
