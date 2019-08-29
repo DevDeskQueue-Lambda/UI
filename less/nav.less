@@ -21,8 +21,10 @@
       justify-content: space-around;
       align-self: center;
       font-size: 180%;
+      padding-right: 5%;
       @media (max-width: @tabletBreakPoint) {
         .flexbox(row, space-evenly);
+        padding-right: 0;
         justify-items: auto;
         width: 100%;
       }
@@ -45,12 +47,14 @@
       width: 15%;
       padding-bottom: 4px;
       padding-top: 4px;
+      padding-left: 5%;
       @media (max-width: @tabletBreakPoint) {
         .flexbox(row, center);
         justify-items: center;
         justify-self: center;
         align-self: center;
         width: 30%;
+        padding-left: 0;
       }
   }
 }
