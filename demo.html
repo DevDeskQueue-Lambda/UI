@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Lambda DevDeskQ</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
 </head>
@@ -13,72 +15,91 @@
 <body>
     <div class="page">
 
-        <header class="navbar">
-            <img src="./img/logo/Lambda_Logo_red.png" alt="logo">
-            <nav class="links">
-                <a href="">Home</a>
-                <a href="">Features</a>
-                <a href="">About Us</a>
-                <a href="">Sign Up</a>
-            </nav>
-        </header>
+            <header class="navbar">
+                        <img src="./img/logo/lambda Logo new.png" alt="logo">
+                        <nav class="links">
+                            <a href="/index.html">Home</a>
+                            <a href="/demo.html">Features</a>
+                            <a href="/about.html">About Us</a>
+                            <a href="https://devdeskapp.lambdaschool.me">Log In</a>
+                            <a href="https://devdeskapp.lambdaschool.me/register">Sign Up</a>
+                        </nav>
+            </header>
 
         <div class="pagePadding">
 
             <section id="header">
 
-                <h1 id="pageTitle">Welcome to DevDesk Queue!</h1>
+                <h1 class="pageTitle">Welcome to DevDesk Queue!</h1>
+
+                <h2 class="pageSubtitle">Student Instructional Page</h2>
 
                 <div class="tableOfContents">
                     <a href="#overview" class="sectionButton">Overview</a>
-                    <a href="#dashboard" class="sectionButton">Student Dashboard</a>
+                    <a href="#register" class="sectionButton">Register With Us</a>
+                    <a href="#login" class="sectionButton">Login To Your Account</a>
                     <a href="#createTicket" class="sectionButton">Create A Ticket</a>
-                    <a href="#ticketHistory" class="sectionButton">Ticket History</a>
-                    <a href="#ticketStatus" class="sectionButton">Ticket Status</a>
+                    <a href="#editTicket" class="sectionButton">Edit A Ticket</a>
                 </div>
 
             </section>
             <section id="content">
                 <div class="linebreak" id="overview"></div>
                 <div class="rowDisplay">
-                    <div class="halfWidth">
-                        <img src="img/demo/placeholder-gif.gif"></img>
+                    <div class="halfWidth halfImgLeft">
+                        <img id="noBorder"src="img/logo/lambda Logo new.png"></img>
                     </div>
                     <div class="halfWidth">
                         <div class="halfText">
                             <h3 class="sectionTitle">DevDesk Queue Overview</h3>
                             <p class="sectionText">
-                                This is an overview of the ticket system. Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Ut non dictum velit. Aenean semper libero in orci pretium, nec dictum
-                                erat viverra.
-                                Etiam sed velit dignissim, euismod magna eget, cursus risus. Quisque semper eget orci
-                                eget tempus. Integer dignissim elementum ante ut bibendum. Nullam dui magna, mollis sed
-                                dolor non,
-                                varius sodales purus. Nunc in ultricies lorem, non congue sem.
+                                DevDesk Queue is here to help students succeed at Lambda School.
+                                We streamline the process of student questions and staff assistance with our
+                                state-of-the-art ticket system.
+                                With DevDesk Queue, students can recieve assistance faster than ever with only a few
+                                simple steps.
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <div class="linebreak" id="dashboard"></div>
+                <div class="linebreak" id="register"></div>
 
                 <div class="rowDisplay">
                     <div class="halfWidth">
                         <div class="halfText">
-                            <h3 class="sectionTitle">Using the Student Dashboard</h3>
+                            <h3 class="sectionTitle">Register With Us</h3>
                             <p class="sectionText">
-                                This is an overview of the Student Dashboard. Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Ut non dictum velit. Aenean semper libero in orci pretium, nec dictum
-                                erat viverra.
-                                Etiam sed velit dignissim, euismod magna eget, cursus risus. Quisque semper eget orci
-                                eget tempus. Integer dignissim elementum ante ut bibendum. Nullam dui magna, mollis sed
-                                dolor non,
-                                varius sodales purus. Nunc in ultricies lorem, non congue sem.
+                                To get started, visit <a href="https://devdeskapp.lambdaschool.me">DevDesk Queue</a>.
+                                Once you have been redirected to our site,
+                                click or tap on the "Register" button in the top right corner. A form will appear,
+                                requiring your name, email, username and password.
+                                Once the form has been completed, click or tap on the "Register" button.
                             </p>
                         </div>
                     </div>
                     <div class="halfWidth halfImgRight">
-                        <img src="img/demo/placeholder-gif.gif"></img>
+                        <img src="img/demo/register.gif"></img>
+                    </div>
+                </div>
+
+                <div class="linebreak" id="login"></div>
+
+                <div class="rowDisplay">
+                    <div class="halfWidth halfImgLeft">
+                        <img src="img/demo/login.gif"></img>
+                    </div>
+                    <div class="halfWidth">
+                        <div class="halfText">
+                            <h3 class="sectionTitle">Log In To Your New Account</h3>
+                            <p class="sectionText">
+                                To log in, visit <a href="https://devdeskapp.lambdaschool.me">DevDesk Queue</a>. Once
+                                you have been redirected to our site,
+                                click or tap on the "Login" button in the top right corner. A form will appear,
+                                requiring your username and password that you chose during registration.
+                                Once the form has been completed, click or tap on the "Login" button.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -86,66 +107,38 @@
 
                 <div class="rowDisplay">
                     <div class="halfWidth">
-                        <img src="img/demo/placeholder-gif.gif"></img>
-                    </div>
-                    <div class="halfWidth">
                         <div class="halfText">
                             <h3 class="sectionTitle">Creating A Ticket</h3>
                             <p class="sectionText">
-                                This is how you create a new ticket. Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Ut non dictum velit. Aenean semper libero in orci pretium, nec dictum
-                                erat viverra.
-                                Etiam sed velit dignissim, euismod magna eget, cursus risus. Quisque semper eget orci
-                                eget tempus. Integer dignissim elementum ante ut bibendum. Nullam dui magna, mollis sed
-                                dolor non,
-                                varius sodales purus. Nunc in ultricies lorem, non congue sem.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="linebreak" id="ticketHistory"></div>
-
-                <div class="rowDisplay">
-                    <div class="halfWidth">
-                        <div class="halfText">
-                            <h3 class="sectionTitle">Viewing a Ticket's History</h3>
-                            <p class="sectionText">
-                                While a ticket is being resolved, you or staff may comment on it. This is how you view
-                                the ticket's comment history.
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Ut non dictum velit. Aenean semper libero in orci pretium, nec dictum
-                                erat viverra.
-                                Etiam sed velit dignissim, euismod magna eget, cursus risus. Quisque semper eget orci
-                                eget tempus. Integer dignissim elementum ante ut bibendum. Nullam dui magna, mollis sed
-                                dolor non,
-                                varius sodales purus. Nunc in ultricies lorem, non congue sem.
+                                As a student, you can create a ticket. To do this, visit <a
+                                    href="https://devdeskapp.lambdaschool.me">DevDesk Queue</a> and log in.
+                                Once you have been redirected to your student dashboard page, click or tap on the "Add
+                                Ticket" button in the upper-right corner of the page.
+                                From here, a form will appear. Fill out the ticket form and click or tap on the "Submit"
+                                button to create your new ticket.
                             </p>
                         </div>
                     </div>
                     <div class="halfWidth halfImgRight">
-                        <img src="img/demo/placeholder-gif.gif"></img>
+                        <img src="img/demo/create-ticket.gif"></img>
                     </div>
                 </div>
 
-                <div class="linebreak" id="ticketStatus"></div>
+                <div class="linebreak" id="editTicket"></div>
 
                 <div class="rowDisplay">
-                    <div class="halfWidth">
-                        <img src="img/demo/placeholder-gif.gif"></img>
+                    <div class="halfWidth halfImgLeft">
+                        <img src="img/demo/edit-ticket.gif"></img>
                     </div>
                     <div class="halfWidth">
                         <div class="halfText">
-                            <h3 class="sectionTitle">Viewing a Ticket's Status</h3>
+                            <h3 class="sectionTitle">Editing a Ticket</h3>
                             <p class="sectionText">
-                                Tickets may have one of three statuses depending on their current progress through
-                                DevDesk Queue. Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Ut non dictum velit. Aenean semper libero in orci pretium, nec dictum
-                                erat viverra.
-                                Etiam sed velit dignissim, euismod magna eget, cursus risus. Quisque semper eget orci
-                                eget tempus. Integer dignissim elementum ante ut bibendum. Nullam dui magna, mollis sed
-                                dolor non,
-                                varius sodales purus. Nunc in ultricies lorem, non congue sem.
+                                To edit a ticket, visit <a href="https://devdeskapp.lambdaschool.me">DevDesk Queue</a>
+                                and log in. Once you have logged in, you will see your student dashboard with a list of
+                                all your tickets. Find the ticket you would like to edit, and click or tap on the
+                                ticket's "Edit" button. A form will appear with the ticket's data listed. Edit any of
+                                the ticket info, and click or tap on the "Submit" button to save your changes.
                             </p>
                         </div>
                     </div>
@@ -156,21 +149,21 @@
     </div>
     <section class="footer">
             <div id="links">
-                <a href="">HOME</a>
-                <a href="">LOGIN</a>
-                <a href="">SIGN UP</a>
-                <a href="">OUR TEAM</a>
-                <a href="">FAQ</a>
-                <a href="">LEGAL</a>
-                <a href="">PRIVACY</a>
+                <a href="/index.html">HOME</a>
+                <a href="https://devdeskapp.lambdaschool.me/">LOGIN</a>
+                <a href="https://devdeskapp.lambdaschool.me/register">SIGN UP</a>
+                <a href="/about.html">OUR TEAM</a>
+                <a href="https://lambdaschool.com/faq">FAQ</a>
+                <a href="https://lambdaschool.com/about">LEGAL</a>
+                <a href="https://lambdaschool.com/privacy-policy">PRIVACY</a>
             </div>
             <div id="copyright">
-                <p>Copyright © 2019 DevDesk Queue</p>
+                <p>Copyright © 2019 DevDesk Queue<br>Vector Art by <a target="_blank" href="https://www.vecteezy.com">vecteezy.com</a></p>
             </div>
             <div id="icons">
-                <img href="" src="img/icons/github-icon.png">
-                <img href="" src="img/icons/twitter-icon.png">
-                <img href="" src="img/icons/linkedin-icon.png">
+                <img href="https://github.com/LambdaSchool" src="img/icons/github-icon.png">
+                <img href="https://twitter.com/LambdaSchool" src="img/icons/twitter-icon.png">
+                <img href="https://www.linkedin.com/school/lambdaschool/" src="img/icons/linkedin-icon.png">
             </div>
         </section>
 </body>

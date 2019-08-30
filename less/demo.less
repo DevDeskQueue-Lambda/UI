@@ -1,6 +1,10 @@
 .rowDisplay {
     display: flex;
     justify-content: space-around;
+    @media (max-width: @tabletBreakPoint) {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .halfWidth { 
@@ -11,21 +15,62 @@
         justify-content: center;
         height: 100%;
     }
+    @media (max-width: @tabletBreakPoint) {
+        width: 100%;
+    }
+    @media (max-width: @mobileBreakPoint) {//for MVP (nothing really needs to be changed when we reach mobile size, all the tablet size styles look fine at mobile size. MVP wants mobile size tho)
+        width: 99%;
+    }
+    
 }
 
 .halfImgRight {
+    img {
+        border: 1px solid gray;
+    }
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row-reverse;
+    @media (max-width: @tabletBreakPoint) {
+        order: -1;//re-reverse the order so it's normal
+        width: 100%;
+        height: auto;
+    }
+}
+
+.halfImgLeft {
+    img {
+        border: 1px solid gray;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: @tabletBreakPoint) {
+        width: 100%;
+        height: auto;
+    }
+}
+
+#noBorder {
+    border: none;
 }
 
 .sectionText {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    @media (max-width: @tabletBreakPoint) {
+        text-align: center;
+    }
 }
 
 .sectionTitle {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     padding-bottom: 5%;
+    @media (max-width: @tabletBreakPoint) {
+        text-align: center;
+        padding-top: 5%;
+    }
 }
 
 .linebreak {
@@ -43,12 +88,25 @@
         .button();
         margin-left: .5%;
         margin-right: .5%;
+        margin-top: 1%;
     }
 
 }
 
-#pageTitle {
+.pageTitle {
     text-align: center;
-    margin-top: 15%;
+    margin-top: 13%;//to get below the fixed header
     font-family: 'Lato', sans-serif;
+    @media (max-width: @tabletBreakPoint) {
+        margin-top: 26%;//since at this width the header gets twice as large
+        font-size: 3rem;
+    }
+}
+
+.pageSubtitle {
+    text-align: center;
+    margin-top: 1.5%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    color: #505050;
 }
